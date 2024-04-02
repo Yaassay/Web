@@ -1,0 +1,148 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', 'sans-serif';
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background-color: #7a38cb;
+    background-color: linear-gradient(#5bc2c9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direita-login {
+    width: 45vw; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 5vw; 
+}
+
+.direita-login h1 {
+    color: #77ffc0;
+    font-size: 4vw;
+}
+
+.direita-login-img {
+    width: 55%; 
+
+    border-radius: 25px;
+    margin-bottom: 20px; 
+}
+
+.esquerda-login {
+    width: 45vw; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+}
+.textfield{
+    color: #ffffff;
+}
+
+.card-login {
+    width: 100%; 
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-direction: column;
+    padding: 30px 30px;
+    background: #f0e0e0;
+    border-radius: 25px;
+    margin-bottom: 30px; 
+}
+.rodape-card{
+    display: inline;
+    position: fixed;
+    bottom: 0;
+    width: 10%;
+    height: 80px; /* Define a altura do rodapé */
+}
+
+.card-email{
+
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-top: 10px; 
+    background: #551dc4;
+}
+.card-senha{
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    /* flex-direction: column; */
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-top: 10px; 
+    background: #551dc4;
+}
+
+.text {
+    width: 90%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-direction: column;
+    padding: 5px 10px;
+    background: #49b68a;
+    text-decoration-color: #000000;
+    border-radius: 20px;
+}
+
+.btn-entrar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-top: 10px; 
+}
+.btn-senha {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-top: 10px; 
+}
+
+.card-login h1 {
+    color: #000000;
+    font-weight: 500;
+    margin: 0;
+}
+.inst{
+    color: #cf1bae;
+}
+ 
+.face{
+    color: #1f2bd3;
+}
+
+.t{
+    color: #000000;
+}
+ 
